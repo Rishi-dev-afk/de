@@ -1,6 +1,3 @@
-!pip install streamlit
-
-
 %%writefile stock_predictor.py
 import streamlit as st
 import torch
