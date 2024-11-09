@@ -1,4 +1,3 @@
-%%writefile stock_predictor.py
 import streamlit as st
 import torch
 import yfinance as yf
