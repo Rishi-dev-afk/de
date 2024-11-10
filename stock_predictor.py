@@ -65,7 +65,7 @@ def app():
     st.title("Stock Price Prediction using LSTM")
 
     
-    stock_symbols = st.text_input("Enter stock symbols (comma separated)", "AAPL, MSFT, GOOGL")
+    stock_symbols = st.text_input("Enter stock symbols (comma separated YF tickers)", "AAPL, MSFT, GOOGL")
     stock_symbols = stock_symbols.split(",") 
     start_date = st.date_input("Start Date", value=pd.to_datetime("2008-01-01"))
     end_date = st.date_input("End Date", value=pd.to_datetime("2023-01-01"))
